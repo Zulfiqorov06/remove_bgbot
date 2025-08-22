@@ -75,7 +75,7 @@ def set_function(call):
         "convert": "🔄 JPG → PNG aylantirish"
     }
     selected = function_names.get(call.data, call.data)
-    bot.send_message(call.message.chat.id, f"🔘 {selected} xizmati tanlandi.
+   bot.send_message(call.message.chat.id, f"🔘 {selected} xizmati tanlandi.\n📤 Endi rasm yuboring.")
 📤 Endi rasm yuboring.")
     bot.answer_callback_query(call.id)
 
